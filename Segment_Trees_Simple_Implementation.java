@@ -91,7 +91,7 @@ public class SegmentTrees {
 	    // Allocate memory for segment tree
 	    //int x = (int)(Math.ceil(Math.log(n))); //Height of segment tree
 	    //int max_size = 2*(int)Math.pow(2, x) - 1; //Maximum size of segment tree
-	    int st[] = new int[n+n];
+	    int st[] = new int[n+n-1];
 	 
 	    // Fill the allocated memory st
 	    constructSTUtil(arr, 0, n-1, st, 0);
