@@ -4,21 +4,10 @@ import java.io.InputStreamReader;
 public class SegmentTrees {
 
 	/**
-	 * @param args
+	 * Gaurav Shrivastava
 	 */
-//	public static void TreeConstruction(int a[], int tree[],int length,int l[],int r[]){
-//		int k = 0;
-//		for (int i = length; i < tree.length; i++) {
-//			r[i] = k;
-//			l[i] = k;
-//			tree[i] = a[k++];
-//		}
-//		for (int i = tree.length - 1; i > 1; i = i - 2) {
-//			l[i/2] = l[i - 1];
-//			r[i/2] = r[i];
-//			tree[i/2] = Math.max(tree[i], tree[i-1]);
-//		}
-//	}
+	 
+	 // A utility function to print arrays
 	public static void print(int a[]){
 		for (int i = 0; i < a.length; i++) {
 			System.out.print(a[i] + " ");
@@ -38,7 +27,7 @@ public class SegmentTrees {
 	/*  A recursive function to get the minimum value in a given range of array
 	    indexes. The following are parameters for this function.
 	 
-	    st    --> Pointer to segment tree
+	    st    --> Array of segment tree
 	    index --> Index of current node in the segment tree. Initially 0 is
 	             passed as root is always at index 0
 	    ss & se  --> Starting and ending indexes of the segment represented by
