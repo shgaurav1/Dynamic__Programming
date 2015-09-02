@@ -1,7 +1,7 @@
 public class LongestCommonSubSeq {
 
 	/**
-	 * @param args
+	 * Author: Gaurav Shrivastava
 	 */
 	
 	public static int LCS(char[] str1, char[] str2){
